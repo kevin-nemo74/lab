@@ -46,15 +46,15 @@
             <div class="d-flex align-items-center justify-content-between">
                 <div class="d-flex">
                     <div class="ms-3">
-                        <img src="./img/Picture0.png" alt="" style="max-width: 120px;">
+                        <img src="./img/Picture0.png" alt="" style="max-width: 150px;">
                     </div>
                 </div>
-                <a href="index.html" class="h1 text-white mb-0">LA<span class="text-dark">MIS</span></a>
+                <a href="index.html" class="h1 text-white mb-0">LA<span class="text-dark">MIS</span> Laboratory</a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2"></i>
                     <div class="ms-3">
                         <h5 class="text-white mb-0">Mail Now</h5>
-                        <span>lamis@gmail.com</span>
+                        <span>labo.lamis@univ-tebessa.dz</span>
                     </div>
                 </div>
             </div>
@@ -79,8 +79,7 @@
                         <a href="index.html" class="nav-item nav-link ">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Teams &
-                                People</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Teams & People</a>
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="team1.html" class="dropdown-item">Engineering of Information and Imaging
                                     Systems</a>
@@ -90,7 +89,14 @@
                                     Systems</a>
                             </div>
                         </div>
-                        <a href="research.html" class="nav-item nav-link active">Research</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Research</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="research.html" class="dropdown-item">Current Projects</a>
+                                <a href="pastProjects.html" class="dropdown-item">Past Projects</a>
+
+                            </div>
+                        </div>
                         <a href="awards.html" class="nav-item nav-link">Awards</a>
                         <a href="partnership.html" class="nav-item nav-link">Partnership</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -111,6 +117,12 @@
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5 mt-4">
             <h1 class="display-2 text-white mb-3 animated slideInDown">Research</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="#">Research</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Current Projects</li>
+                </ol>
+            </nav>
 
         </div>
     </div>
@@ -121,784 +133,571 @@
     <!-- Research Page Start -->
     <section id="research" class="container my-5">
 
-        <!-- Nav tabs for years -->
-        <ul class="nav nav-tabs justify-content-center" id="publicationsTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="year-2024-tab" data-bs-toggle="tab" data-bs-target="#year-2024"
-                    type="button" role="tab" aria-controls="year-2024" aria-selected="true"
-                    style="font-size: x-large;">Current Projects</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="year-2023-tab" data-bs-toggle="tab" data-bs-target="#year-2023"
-                    type="button" role="tab" aria-controls="year-2023" aria-selected="false"
-                    style="font-size: x-large;">Past Projects</button>
-            </li>
 
-        </ul>
-        <div class="tab-content" id="publicationsTabContent">
-            <div class="tab-pane fade show active" id="year-2024" role="tabpanel" aria-labelledby="year-2024-tab">
-                <div class="row gy-5">
-                    <!-- Project 0 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project0Modal">
-                            <img src="img/Picture34.jpg" class="card-img-top" alt="Breast Cancer Research">
-                            <div class="card-body">
-                                <h5 class="card-title">IA-CAD: Early Diagnosis Support for Breast Cancer</h5>
-                                <p class="card-text">This project aims to develop an effective CAD system using deep
-                                    learning to
-                                    support early breast cancer diagnosis.</p>
-                                <p><strong>Members:</strong> Pr. Amroune Mohamed, Pr. Hakim Bendjenna, and more.</p>
-                                <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 3 years</p>
-                            </div>
-                        </div>
+
+        <div class="row gy-5">
+            <!-- Project 0 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project0Modal">
+                    <img src="img/Picture34.jpg" class="card-img-top" alt="Breast Cancer Research">
+                    <div class="card-body">
+                        <h5 class="card-title">IA-CAD: Early Diagnosis Support for Breast Cancer</h5>
+                        <p class="card-text">This project aims to develop an effective CAD system using deep
+                            learning to
+                            support early breast cancer diagnosis.</p>
+                        <p><strong>Members:</strong> Pr. Amroune Mohamed, Pr. Hakim Bendjenna, and more.</p>
+                        <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 3 years</p>
                     </div>
-
-                    <!-- Project 0 Modal -->
-                    <div class="modal fade" id="project0Modal" tabindex="-1" aria-labelledby="project0ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project0ModalLabel">IA-CAD: Early Diagnosis Support for
-                                        Breast
-                                        Cancer</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-
-                                    <p><strong>Goal:</strong> The development of an effective CAD system based on deep
-                                        learning,
-                                        an innovative and promising technology in recent years.</p>
-                                    <p><strong>Members:</strong> Pr. Amroune Mohamed, Pr. Hakim Bendjenna, Pr. Abdallah
-                                        Meraoumia, Dr. Issam Bendib, Dr. Haouam Med Yassine, Dr. Salima Bourougaa, Dr.
-                                        Othmani
-                                        Iman, Dr. Haouam Lotfi, Hama Soltani (PhD student).</p>
-                                    <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 3 years</p>
-                                    <p><strong>Full Description:</strong> In view of the increase in the number of
-                                        mammograms in
-                                        recent years, various research studies have been carried out either to
-                                        automatically
-                                        detect lesions – i.e. micro-calcifications or masses – in the images using
-                                        computer-aided detection systems to provide a second opinion about the lesion
-                                        detected
-                                        through computer-aided diagnosis systems. This has led to the design of several
-                                        mammographic image processing methods. The goal of this project is the
-                                        development
-                                        of
-                                        adequate and effective CAD (Computer Aided Diagnosis) system based on deep
-                                        learning
-                                        approach which is considered as an innovative and promising technology in recent
-                                        years.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 2 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project20Modal">
-                            <img src="img/Picture35.jpg" class="card-img-top" alt="Anatomopathological Diagnosis">
-                            <div class="card-body">
-                                <h5 class="card-title">Intelligent System for Anatomopathological Diagnosis</h5>
-                                <p class="card-text">Using AI to improve accuracy and speed in anatomical pathology
-                                    diagnoses.
-                                </p>
-                                <p><strong>Members:</strong> Pr. Hakim Bendjenna, Dr. Gasmi Mohamed, and PhD student
-                                    Ghenai
-                                    Charaf Eddine.</p>
-                                <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 2 Modal -->
-                    <div class="modal fade" id="project20Modal" tabindex="-1" aria-labelledby="project20ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project20ModalLabel">Intelligent System for
-                                        Anatomopathological
-                                        Diagnosis</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-
-                                    <p><strong>Goal:</strong> To develop a diagnostic aid system based on AI techniques
-                                        to
-                                        address time and precision challenges.</p>
-                                    <p><strong>Members:</strong> Pr. Hakim Bendjenna, Dr. Gasmi Mohamed, Mr. Ghenai
-                                        Charaf
-                                        Eddine (PhD student).</p>
-                                    <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
-                                    <p><strong>Full Description:</strong> Artificial intelligence has permeated all
-                                        domains,
-                                        especially those in which the human mind is strongly compelled to think and
-                                        experiment.
-                                        It represents a current topic in anatomical pathology, explaining the
-                                        exponential
-                                        increase in its involvement, particularly in medical detection and diagnosis.
-                                        This
-                                        will
-                                        induce a future transformation of the pathologist profession and will change the
-                                        role of
-                                        anatomical pathology in the healthcare system.
-                                        Since machines have demonstrated a level of maturity and accuracy in diagnostic
-                                        results
-                                        that surpasses that of a human being, we aim to develop a diagnostic aid system
-                                        based on
-                                        AI techniques to address the issues of time and precision.
-                                        This project aims to utilize artificial intelligence to enhance and expedite the
-                                        diagnosis of diseases through digitized slides of anatomical pathology. It will
-                                        considerably ease patient management through the digitization of diagnostic
-                                        processes
-                                        based on the use of various antibodies.
-                                        We propose a tele-diagnostic and expertise system among pathologists.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 1 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project1Modal">
-                            <img src="img/Picture36.jpg" class="card-img-top"
-                                alt="Neural Diseases via Manuscript Analysis">
-                            <div class="card-body">
-                                <h5 class="card-title">Early Detection of Neural Diseases via Manuscript Analysis</h5>
-                                <p class="card-text">Using handwriting analysis to detect neural diseases like
-                                    Alzheimer's
-                                    and
-                                    Parkinson's.</p>
-                                <p><strong>Members:</strong> Dr. Taher Mekhaznia, Dr. Bennour Akram, PhD students: Asma
-                                    Aoun
-                                    Allah, Tag Samir, Souli Yassine, Mahmoudi Rachid, Benredjem Sabrina, Boudraa
-                                    Merouane,
-                                    Kaber
-                                    Nour El Houda.</p>
-                                <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 1 Modal -->
-                    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project1ModalLabel">Early Detection of Neural Diseases
-                                        via
-                                        Manuscript Analysis</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To develop a system for detecting neural diseases based on
-                                        handwriting analysis.</p>
-                                    <p><strong>Members:</strong> Dr. Taher Mekhaznia, Dr. Bennour Akram, PhD students:
-                                        Asma
-                                        Aoun
-                                        Allah, Tag Samir, Souli Yassine, Mahmoudi Rachid, Benredjem Sabrina, Boudraa
-                                        Merouane,
-                                        Kaber Nour El Houda.</p>
-                                    <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
-                                    <p><strong>Full Description:</strong> Neural cells are irreplaceable, and the loss
-                                        of
-                                        control over muscles due to neural diseases leads to movement disorders. The
-                                        project
-                                        aims to detect early signs of diseases like Alzheimer’s and Parkinson’s through
-                                        handwriting analysis. This approach allows early detection, preventing the
-                                        disease's
-                                        proliferation. Handwriting is sensitive to changes in human behavior due to
-                                        depression,
-                                        fatigue, etc., and can serve as an early detection tool for specialists.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 2 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project2Modal">
-                            <img src="img/Picture37.png" class="card-img-top" alt="Pulmonary Disease Diagnosis">
-                            <div class="card-body">
-                                <h5 class="card-title">Application of AI Techniques for Pulmonary Disease Diagnosis</h5>
-                                <p class="card-text">Using AI and machine learning to enhance the diagnosis of pulmonary
-                                    diseases.</p>
-                                <p><strong>Members:</strong> Dr. Akram Bennour, PhD students: Gaham Oussama, Farah
-                                    Hamza.
-                                </p>
-                                <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 2 Modal -->
-                    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project2ModalLabel">Application of AI Techniques for
-                                        Pulmonary
-                                        Disease Diagnosis</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To develop AI tools that assist healthcare professionals
-                                        in
-                                        accurately diagnosing pulmonary diseases.</p>
-                                    <p><strong>Members:</strong> Dr. Akram Bennour, PhD students: Gaham Oussama, Farah
-                                        Hamza.
-                                    </p>
-                                    <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
-                                    <p><strong>Full Description:</strong> This project focuses on leveraging AI and
-                                        machine
-                                        learning algorithms to assist in pulmonary disease diagnosis. The innovative AI
-                                        tools
-                                        developed will optimize the healthcare process and improve diagnostic accuracy.
-                                        The
-                                        project will be conducted in modules, with intermediate objectives and
-                                        experimental
-                                        phases, ensuring continual progress toward better patient outcomes.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 3 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project3Modal">
-                            <img src="img/Picture38.png" class="card-img-top"
-                                alt="Corrosion Detection in Industrial Equipment">
-                            <div class="card-body">
-                                <h5 class="card-title">Intelligent System for Corrosion Detection in Industrial
-                                    Equipment
-                                </h5>
-                                <p class="card-text">Developing a system to monitor and inspect corrosion in industrial
-                                    equipment.</p>
-                                <p><strong>Members:</strong> Dr. Mohamed Yassine Haouam, Dr. Merzoug Soltane, PhD
-                                    student
-                                    Touat
-                                    Hamad Zineb.</p>
-                                <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 3 Modal -->
-                    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project3ModalLabel">Intelligent System for Corrosion
-                                        Detection
-                                        in Industrial Equipment</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To develop an intelligent and scalable system for
-                                        monitoring
-                                        and
-                                        inspecting corrosion in industrial infrastructures.</p>
-                                    <p><strong>Members:</strong> Dr. Mohamed Yassine Haouam, Dr. Merzoug Soltane, PhD
-                                        student
-                                        Touat Hamad Zineb.</p>
-                                    <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
-                                    <p><strong>Full Description:</strong> The detection and monitoring of corrosion are
-                                        essential for reducing the lifecycle cost of industrial infrastructures. This
-                                        project
-                                        aims to develop an intelligent system that extends the life of equipment,
-                                        reduces
-                                        maintenance costs, and minimizes human intervention in dangerous situations. The
-                                        system
-                                        will be scalable, adaptive, and able to conduct efficient monitoring of
-                                        corrosion
-                                        across
-                                        various platforms.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 4 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project4Modal">
-                            <img src="img/Picture39.png" class="card-img-top" alt="Cardiovascular Pathologies">
-                            <div class="card-body">
-                                <h5 class="card-title">Computer-Assisted Intelligent Diagnosis for Cardiovascular
-                                    Pathologies
-                                </h5>
-                                <p class="card-text">Leveraging machine learning to predict and detect cardiovascular
-                                    diseases.
-                                </p>
-                                <p><strong>Members:</strong> Dr. Issam Bendib, Pr. Mohamed Amroune, Dr. Mohamed Yassine
-                                    Haouam,
-                                    PhD students: Ali Adjal, Fares Soufiane Mazouni, Faycel Merzag.</p>
-                                <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 4 Modal -->
-                    <div class="modal fade" id="project4Modal" tabindex="-1" aria-labelledby="project4ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project4ModalLabel">Computer-Assisted Intelligent
-                                        Diagnosis
-                                        for
-                                        Cardiovascular Pathologies</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To develop intelligent systems that predict and diagnose
-                                        cardiovascular pathologies using machine learning.</p>
-                                    <p><strong>Members:</strong> Dr. Issam Bendib, Pr. Mohamed Amroune, Dr. Mohamed
-                                        Yassine
-                                        Haouam, PhD students: Ali Adjal, Fares Soufiane Mazouni, Faycel Merzag.</p>
-                                    <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
-                                    <p><strong>Full Description:</strong> Cardiovascular diseases (CVDs) are a leading
-                                        cause
-                                        of
-                                        mortality and impose a significant burden on the healthcare system. This project
-                                        uses
-                                        machine learning and deep learning techniques to predict cardiovascular diseases
-                                        early,
-                                        providing valuable tools for healthcare professionals. The system will collect
-                                        data
-                                        on
-                                        cardiac pathologies and related diseases from Algerian patients to aid in early
-                                        detection and treatment.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 5 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project5Modal">
-                            <img src="img/Picture40.png" class="card-img-top" alt="E-Government Security">
-                            <div class="card-body">
-                                <h5 class="card-title">TrustGov: Deep Learning-Based Biometric Approach to Secure
-                                    E-Government
-                                    Applications</h5>
-                                <p class="card-text">Developing secure biometric-based authentication for E-government
-                                    applications.</p>
-                                <p><strong>Members:</strong> Dr. Laimeche Lakhdar, Dr. Haouam Med Yassine, PhD students:
-                                    Makhlouf Ziad Eddine, Gharbi Abdelhakim, Toureche Amina, Kenaza Rabah, Khemane
-                                    Ameur,
-                                    Ferik
-                                    Brahim.</p>
-                                <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 5 Modal -->
-                    <div class="modal fade" id="project5Modal" tabindex="-1" aria-labelledby="project5ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project5ModalLabel">TrustGov: Deep Learning-Based
-                                        Biometric
-                                        Approach to Secure E-Government Applications</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To design a secure E-Government model that satisfies
-                                        authentication and access control through biometric systems.</p>
-                                    <p><strong>Members:</strong> Dr. Laimeche Lakhdar, Dr. Haouam Med Yassine, PhD
-                                        students:
-                                        Makhlouf Ziad Eddine, Gharbi Abdelhakim, Toureche Amina, Kenaza Rabah, Khemane
-                                        Ameur,
-                                        Ferik Brahim.</p>
-                                    <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
-                                    <p><strong>Full Description:</strong> Algeria’s E-Government ranking is improving,
-                                        and
-                                        this
-                                        project aims to strengthen it by developing a secure, deep learning-based
-                                        biometric
-                                        authentication model. The focus is on ensuring secure access to government
-                                        services,
-                                        improving data protection, and increasing public trust in digital government
-                                        systems.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 6 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project6Modal">
-                            <img src="img/Picture41.png" class="card-img-top" alt="Fixed Point Theory and Applications">
-                            <div class="card-body">
-                                <h5 class="card-title">Fixed Point: Theory and Applications</h5>
-                                <p class="card-text">Exploring the use of fixed point theorems in various mathematical
-                                    models.
-                                </p>
-                                <p><strong>Members:</strong> Dr. Khaled Berrah, Dr. Nabti Abderrazek, PhD students: Sadi
-                                    Saleh,
-                                    Hadjadj Randa, Chettouh Kamilia.</p>
-                                <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 6 Modal -->
-                    <div class="modal fade" id="project6Modal" tabindex="-1" aria-labelledby="project6ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project6ModalLabel">Fixed Point: Theory and Applications
-                                    </h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To explore and apply fixed point theory in various
-                                        mathematical
-                                        and economic models.</p>
-                                    <p><strong>Members:</strong> Dr. Khaled Berrah, Dr. Nabti Abderrazek, PhD students:
-                                        Sadi
-                                        Saleh, Hadjadj Randa, Chettouh Kamilia.</p>
-                                    <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
-                                    <p><strong>Full Description:</strong> Fixed point theorems are essential tools for
-                                        proving
-                                        the existence and uniqueness of solutions in mathematical models. This project
-                                        will
-                                        focus on applying these theorems to dynamic systems and economic problems,
-                                        including
-                                        the
-                                        analysis of the Algerian economy using dynamic system models.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Project 7 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project7Modal"> <img
-                                src="img/Picture42.png" class="card-img-top" alt="Asymptotic Behavior of Solutions">
-                            <div class="card-body">
-                                <h5 class="card-title">Asymptotic Behavior of Solutions to Nonlinear Evolution Problems
-                                </h5>
-                                <p class="card-text">Studying the existence, stability, and explosion of solutions in
-                                    nonlinear
-                                    evolution models.</p>
-                                <p><strong>Members:</strong> Pr. Boumaza Nouri, Saker Meriem (PhD student), Khaoula
-                                    Merzoug
-                                    (PhD
-                                    student).</p>
-                                <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
-                            </div>
-                        </div>
-                    </div> <!-- Project 7 Modal -->
-                    <div class="modal fade" id="project7Modal" tabindex="-1" aria-labelledby="project7ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project7ModalLabel">Asymptotic Behavior of Solutions to
-                                        Nonlinear Evolution Problems</h5> <button type="button" class="btn-close"
-                                        data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To study the existence, stability, and explosion of
-                                        solutions
-                                        to
-                                        nonlinear evolution problems and establish new conditions regarding the
-                                        interaction
-                                        between damping and source terms.</p>
-                                    <p><strong>Members:</strong> Pr. Boumaza Nouri, Saker Meriem (PhD student), Khaoula
-                                        Merzoug
-                                        (PhD student).</p>
-                                    <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
-                                    <p><strong>Full Description:</strong> The problem in this research axis is to study
-                                        the
-                                        existence, stability, and explosion of solutions to posed problems (nonlinear
-                                        evolution
-                                        problems) and to search for new conditions on the interaction between the
-                                        damping
-                                        term
-                                        and the source term.
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 8 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project8Modal"> <img
-                                src="img/Picture43.png" class="card-img-top"
-                                alt="Stabilization and Explosion of Solutions">
-                            <div class="card-body">
-                                <h5 class="card-title">Stabilization and Explosion of Solutions in Nonlinear Evolution
-                                    Systems
-                                </h5>
-                                <p class="card-text">Investigating methods for stabilization and destabilization of
-                                    nonlinear
-                                    systems.</p>
-                                <p><strong>Members:</strong> Pr. Mesloub Fatiha, Pr. Zarai Abderrahmane, Benzahi Mourad
-                                    (PhD
-                                    student), Merah Ahlem (PhD student), Toualbia Sarra (PhD student).</p>
-                                <p><strong>Starting Date:</strong> 2021 | <strong>Duration:</strong> 4 years</p>
-                            </div>
-                        </div>
-                    </div> <!-- Project 8 Modal -->
-                    <div class="modal fade" id="project8Modal" tabindex="-1" aria-labelledby="project8ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project8ModalLabel">Stabilization and Explosion of
-                                        Solutions
-                                        in
-                                        Nonlinear Evolution Systems</h5> <button type="button" class="btn-close"
-                                        data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To explore conditions that promote system stabilization
-                                        towards
-                                        equilibrium and investigate causes of system destabilization, including
-                                        finite-time
-                                        explosion.</p>
-                                    <p><strong>Members:</strong> Pr. Mesloub Fatiha, Pr. Zarai Abderrahmane, Benzahi
-                                        Mourad
-                                        (PhD
-                                        student), Merah Ahlem (PhD student), Toualbia Sarra (PhD student).</p>
-                                    <p><strong>Starting Date:</strong> 2021 | <strong>Duration:</strong> 4 years</p>
-                                    <p><strong>Full Description:</strong> The proposed problems constitute a major
-                                        research
-                                        axis. Initially, it involves testing existing techniques and methods on new
-                                        problems
-                                        that naturally arise in various application domains. Subsequently, improving
-                                        conditions
-                                        and extending results to other, more general situations by modifying existing
-                                        methods,
-                                        and potentially establishing new techniques capable of solving the problems
-                                        under
-                                        investigation. The question of local existence, while it may pose technical
-                                        complications and serves as the initial step before proceeding further, in our
-                                        opinion,
-                                        does not necessarily constitute a major contribution. Rather, our primary
-                                        interest
-                                        lies
-                                        in the preference for exponential stabilization of the system towards
-                                        equilibrium
-                                        and
-                                        the conditions favoring system destabilization, particularly finite-time
-                                        explosion.
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-                    <!-- More projects following the same structure -->
                 </div>
             </div>
-            <div class="tab-pane fade" id="year-2023" role="tabpanel" aria-labelledby="year-2023-tab">
-                <div class="row gy-5">
-                    <!-- Project 9 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project9Modal"> <img
-                                src="img/Picture44.jpg" class="card-img-top" alt="Opinion Mining">
-                            <div class="card-body">
-                                <h5 class="card-title">Opinion Mining: Extraction and Structuring</h5>
-                                <p class="card-text">Analyzing techniques for opinion extraction and developing a system
-                                    for
-                                    mining opinions.</p>
-                                <p><strong>Members:</strong> Dalila Bouras (PhD student), Supervisors: H. Bendjenna, M.
-                                    Amroune.
-                                </p>
-                                <p><strong>Starting Date:</strong> Completed Project</p>
-                            </div>
-                        </div>
-                    </div> <!-- Project 9 Modal -->
-                    <div class="modal fade" id="project9Modal" tabindex="-1" aria-labelledby="project9ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project9ModalLabel">Opinion Mining: Extraction and
-                                        Structuring
-                                    </h5> <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To develop a software system for opinion mining by
-                                        analyzing
-                                        various techniques and key tasks involved in opinion mining from online
-                                        resources.
-                                    </p>
-                                    <p><strong>Members:</strong> Dalila Bouras (PhD student), Supervisors: H. Bendjenna,
-                                        M.
-                                        Amroune.</p>
-                                    <p><strong>Starting Date:</strong> Completed Project</p>
-                                    <p><strong>Full Description:</strong> With the growing availability and popularity
-                                        of
-                                        opinion-rich resources such as online review, news reports, client emails, sites
-                                        and
-                                        personal blogs, new opportunities and challenges arise
-                                        as people now can, and do, actively use information technologies to seek out and
-                                        understand the opinions of others. In this project we survey and analyze various
-                                        techniques that have been developed for the key tasks of opinion mining. We wish
-                                        to
-                                        develop a software system for opinion mining on the basis of our survey and
-                                        analysis.
 
+            <!-- Project 0 Modal -->
+            <div class="modal fade" id="project0Modal" tabindex="-1" aria-labelledby="project0ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project0ModalLabel">IA-CAD: Early Diagnosis Support for
+                                Breast
+                                Cancer</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 10 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project10Modal"> <img
-                                src="img/Picture45.png" class="card-img-top" alt="VANET Cloud">
-                            <div class="card-body">
-                                <h5 class="card-title">A Vehicular Ad Hoc Networks (VANET) Based Cloud</h5>
-                                <p class="card-text">Designing a vehicular networking system using cloud computing.</p>
-                                <p><strong>Members:</strong> Dr. Sahraoui Abdelatif, Dr. Achouri Mounir, Pr. Makhlouf
-                                    Derdour.
-                                </p>
-                                <p><strong>Starting Date:</strong> Ongoing Project</p>
-                            </div>
-                        </div>
-                    </div> <!-- Project 10 Modal -->
-                    <div class="modal fade" id="project10Modal" tabindex="-1" aria-labelledby="project10ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project10ModalLabel">A Vehicular Ad Hoc Networks (VANET)
-                                        Based
-                                        Cloud</h5> <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To develop a Vehicular Cloud Networking system by
-                                        combining
-                                        the
-                                        benefits of VANETs and cloud computing for improving traffic safety and
-                                        efficiency.
-                                    </p>
-                                    <p><strong>Members:</strong> Dr. Sahraoui Abdelatif, Dr. Achouri Mounir, Pr.
-                                        Makhlouf
-                                        Derdour.</p>
-                                    <p><strong>Starting Date:</strong> Ongoing Project</p>
-                                    <p><strong>Full Description:</strong> One such network that has received a lot of
-                                        interest
-                                        in the last couple of years is the Vehicular Ad-Hoc Network (VANET). VANET has
-                                        become an
-                                        active area of research, standardization, and development because it has
-                                        tremendous
-                                        potential to improve vehicle and road safety, traffic efficiency, and
-                                        convenience as
-                                        well as comfort to both drivers and passengers. On the other hand, cloud
-                                        computing
-                                        is
-                                        supposed to be the next big thing because of its scalability, PaaS, IaaS, SaaS
-                                        and
-                                        other
-                                        important characteristics. In this project, we envision a new vehicular
-                                        networking
-                                        system, Vehicular Cloud Networking.
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 11 -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project11Modal"> <img
-                                src="img/Picture46.jpg" class="card-img-top"
-                                alt="Biometric and Cryptography in E-Banking">
-                            <div class="card-body">
-                                <h5 class="card-title">Adoption of Biometric and Cryptography in E-Banking Transactions
-                                </h5>
-                                <p class="card-text">Enhancing security in e-banking transactions using biometric and
-                                    cryptographic solutions.</p>
-                                <p><strong>Members:</strong> Pr. A. Meraoumia, Dr. O. Chergui, Pr. H. Bendjenna.</p>
-                                <p><strong>Starting Date:</strong> Ongoing Project</p>
-                            </div>
-                        </div>
-                    </div> <!-- Project 11 Modal -->
-                    <div class="modal fade" id="project11Modal" tabindex="-1" aria-labelledby="project11ModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="project11ModalLabel">Adoption of Biometric and
-                                        Cryptography
-                                        in
-                                        E-Banking Transactions</h5> <button type="button" class="btn-close"
-                                        data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><strong>Goal:</strong> To develop a model that integrates palmprint biometrics
-                                        with
-                                        cryptographic schemes to reduce fraud risks in e-banking transactions and
-                                        enhance
-                                        customer trust.</p>
-                                    <p><strong>Members:</strong> Pr. A. Meraoumia, Dr. O. Chergui, Pr. H. Bendjenna.</p>
-                                    <p><strong>Starting Date:</strong> Ongoing Project</p>
-                                    <p><strong>Full Description:</strong> Today, the Internet plays a big and
-                                        increasingly
-                                        important role in our modern societies. The financial institution, such the
-                                        bank, is
-                                        one
-                                        of these societies whose started using internet as a distribution channels for
-                                        the
-                                        services they offer. The large diffusion of e-banking service requires more
-                                        stringent
-                                        methodologies to identify customers in order to prevent any fraud incident. The
-                                        objective of this project is to develop a design model that implements the
-                                        concepts
-                                        of
-                                        fuzzy commitment scheme based on palmprint biometrics to reduce risks of fraud
-                                        and
-                                        to
-                                        improve customer’s trust in online banking transactions. Thus, to enhance the
-                                        discriminating capability of the feature vector, extracted from each palmprint
-                                        modality,
-                                        several feature extraction methods are used. After that, the financial
-                                        transaction
-                                        information is encrypted using a random key (public or private) and then
-                                        transmitted
-                                        to
-                                        the bank institution. In the bank server, an efficiency scheme for the key
-                                        retrieval
-                                        is
-                                        implemented in order to determine the cryptographic key (private key) which used
-                                        for
-                                        decrypt the message and then treated. To evaluate our scheme a multispectral
-                                        palmprint
-                                        database of 400 is used.
-                                    </p>
-                                </div>
-                            </div>
+                            <p><strong>Goal:</strong> The development of an effective CAD system based on deep
+                                learning,
+                                an innovative and promising technology in recent years.</p>
+                            <p><strong>Members:</strong> Pr. Amroune Mohamed, Pr. Hakim Bendjenna, Pr. Abdallah
+                                Meraoumia, Dr. Issam Bendib, Dr. Haouam Med Yassine, Dr. Salima Bourougaa, Dr.
+                                Othmani
+                                Iman, Dr. Haouam Lotfi, Hama Soltani (PhD student).</p>
+                            <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 3 years</p>
+                            <p><strong>Full Description:</strong> In view of the increase in the number of
+                                mammograms in
+                                recent years, various research studies have been carried out either to
+                                automatically
+                                detect lesions – i.e. micro-calcifications or masses – in the images using
+                                computer-aided detection systems to provide a second opinion about the lesion
+                                detected
+                                through computer-aided diagnosis systems. This has led to the design of several
+                                mammographic image processing methods. The goal of this project is the
+                                development
+                                of
+                                adequate and effective CAD (Computer Aided Diagnosis) system based on deep
+                                learning
+                                approach which is considered as an innovative and promising technology in recent
+                                years.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project20Modal">
+                    <img src="img/Picture35.jpg" class="card-img-top" alt="Anatomopathological Diagnosis">
+                    <div class="card-body">
+                        <h5 class="card-title">Intelligent System for Anatomopathological Diagnosis</h5>
+                        <p class="card-text">Using AI to improve accuracy and speed in anatomical pathology
+                            diagnoses.
+                        </p>
+                        <p><strong>Members:</strong> Pr. Hakim Bendjenna, Dr. Gasmi Mohamed, and PhD student
+                            Ghenai
+                            Charaf Eddine.</p>
+                        <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 Modal -->
+            <div class="modal fade" id="project20Modal" tabindex="-1" aria-labelledby="project20ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project20ModalLabel">Intelligent System for
+                                Anatomopathological
+                                Diagnosis</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <p><strong>Goal:</strong> To develop a diagnostic aid system based on AI techniques
+                                to
+                                address time and precision challenges.</p>
+                            <p><strong>Members:</strong> Pr. Hakim Bendjenna, Dr. Gasmi Mohamed, Mr. Ghenai
+                                Charaf
+                                Eddine (PhD student).</p>
+                            <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
+                            <p><strong>Full Description:</strong> Artificial intelligence has permeated all
+                                domains,
+                                especially those in which the human mind is strongly compelled to think and
+                                experiment.
+                                It represents a current topic in anatomical pathology, explaining the
+                                exponential
+                                increase in its involvement, particularly in medical detection and diagnosis.
+                                This
+                                will
+                                induce a future transformation of the pathologist profession and will change the
+                                role of
+                                anatomical pathology in the healthcare system.
+                                Since machines have demonstrated a level of maturity and accuracy in diagnostic
+                                results
+                                that surpasses that of a human being, we aim to develop a diagnostic aid system
+                                based on
+                                AI techniques to address the issues of time and precision.
+                                This project aims to utilize artificial intelligence to enhance and expedite the
+                                diagnosis of diseases through digitized slides of anatomical pathology. It will
+                                considerably ease patient management through the digitization of diagnostic
+                                processes
+                                based on the use of various antibodies.
+                                We propose a tele-diagnostic and expertise system among pathologists.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 1 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                    <img src="img/Picture36.jpg" class="card-img-top" alt="Neural Diseases via Manuscript Analysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Early Detection of Neural Diseases via Manuscript Analysis</h5>
+                        <p class="card-text">Using handwriting analysis to detect neural diseases like
+                            Alzheimer's
+                            and
+                            Parkinson's.</p>
+                        <p><strong>Members:</strong> Dr. Taher Mekhaznia, Dr. Bennour Akram, PhD students: Asma
+                            Aoun
+                            Allah, Tag Samir, Souli Yassine, Mahmoudi Rachid, Benredjem Sabrina, Boudraa
+                            Merouane,
+                            Kaber
+                            Nour El Houda.</p>
+                        <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 1 Modal -->
+            <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project1ModalLabel">Early Detection of Neural Diseases
+                                via
+                                Manuscript Analysis</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Goal:</strong> To develop a system for detecting neural diseases based on
+                                handwriting analysis.</p>
+                            <p><strong>Members:</strong> Dr. Taher Mekhaznia, Dr. Bennour Akram, PhD students:
+                                Asma
+                                Aoun
+                                Allah, Tag Samir, Souli Yassine, Mahmoudi Rachid, Benredjem Sabrina, Boudraa
+                                Merouane,
+                                Kaber Nour El Houda.</p>
+                            <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
+                            <p><strong>Full Description:</strong> Neural cells are irreplaceable, and the loss
+                                of
+                                control over muscles due to neural diseases leads to movement disorders. The
+                                project
+                                aims to detect early signs of diseases like Alzheimer’s and Parkinson’s through
+                                handwriting analysis. This approach allows early detection, preventing the
+                                disease's
+                                proliferation. Handwriting is sensitive to changes in human behavior due to
+                                depression,
+                                fatigue, etc., and can serve as an early detection tool for specialists.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                    <img src="img/Picture37.png" class="card-img-top" alt="Pulmonary Disease Diagnosis">
+                    <div class="card-body">
+                        <h5 class="card-title">Application of AI Techniques for Pulmonary Disease Diagnosis</h5>
+                        <p class="card-text">Using AI and machine learning to enhance the diagnosis of pulmonary
+                            diseases.</p>
+                        <p><strong>Members:</strong> Dr. Akram Bennour, PhD students: Gaham Oussama, Farah
+                            Hamza.
+                        </p>
+                        <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 Modal -->
+            <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project2ModalLabel">Application of AI Techniques for
+                                Pulmonary
+                                Disease Diagnosis</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Goal:</strong> To develop AI tools that assist healthcare professionals
+                                in
+                                accurately diagnosing pulmonary diseases.</p>
+                            <p><strong>Members:</strong> Dr. Akram Bennour, PhD students: Gaham Oussama, Farah
+                                Hamza.
+                            </p>
+                            <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
+                            <p><strong>Full Description:</strong> This project focuses on leveraging AI and
+                                machine
+                                learning algorithms to assist in pulmonary disease diagnosis. The innovative AI
+                                tools
+                                developed will optimize the healthcare process and improve diagnostic accuracy.
+                                The
+                                project will be conducted in modules, with intermediate objectives and
+                                experimental
+                                phases, ensuring continual progress toward better patient outcomes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                    <img src="img/Picture38.png" class="card-img-top" alt="Corrosion Detection in Industrial Equipment">
+                    <div class="card-body">
+                        <h5 class="card-title">Intelligent System for Corrosion Detection in Industrial
+                            Equipment
+                        </h5>
+                        <p class="card-text">Developing a system to monitor and inspect corrosion in industrial
+                            equipment.</p>
+                        <p><strong>Members:</strong> Dr. Mohamed Yassine Haouam, Dr. Merzoug Soltane, PhD
+                            student
+                            Touat
+                            Hamad Zineb.</p>
+                        <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 Modal -->
+            <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project3ModalLabel">Intelligent System for Corrosion
+                                Detection
+                                in Industrial Equipment</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Goal:</strong> To develop an intelligent and scalable system for
+                                monitoring
+                                and
+                                inspecting corrosion in industrial infrastructures.</p>
+                            <p><strong>Members:</strong> Dr. Mohamed Yassine Haouam, Dr. Merzoug Soltane, PhD
+                                student
+                                Touat Hamad Zineb.</p>
+                            <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
+                            <p><strong>Full Description:</strong> The detection and monitoring of corrosion are
+                                essential for reducing the lifecycle cost of industrial infrastructures. This
+                                project
+                                aims to develop an intelligent system that extends the life of equipment,
+                                reduces
+                                maintenance costs, and minimizes human intervention in dangerous situations. The
+                                system
+                                will be scalable, adaptive, and able to conduct efficient monitoring of
+                                corrosion
+                                across
+                                various platforms.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project4Modal">
+                    <img src="img/Picture39.png" class="card-img-top" alt="Cardiovascular Pathologies">
+                    <div class="card-body">
+                        <h5 class="card-title">Computer-Assisted Intelligent Diagnosis for Cardiovascular
+                            Pathologies
+                        </h5>
+                        <p class="card-text">Leveraging machine learning to predict and detect cardiovascular
+                            diseases.
+                        </p>
+                        <p><strong>Members:</strong> Dr. Issam Bendib, Pr. Mohamed Amroune, Dr. Mohamed Yassine
+                            Haouam,
+                            PhD students: Ali Adjal, Fares Soufiane Mazouni, Faycel Merzag.</p>
+                        <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 Modal -->
+            <div class="modal fade" id="project4Modal" tabindex="-1" aria-labelledby="project4ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project4ModalLabel">Computer-Assisted Intelligent
+                                Diagnosis
+                                for
+                                Cardiovascular Pathologies</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Goal:</strong> To develop intelligent systems that predict and diagnose
+                                cardiovascular pathologies using machine learning.</p>
+                            <p><strong>Members:</strong> Dr. Issam Bendib, Pr. Mohamed Amroune, Dr. Mohamed
+                                Yassine
+                                Haouam, PhD students: Ali Adjal, Fares Soufiane Mazouni, Faycel Merzag.</p>
+                            <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
+                            <p><strong>Full Description:</strong> Cardiovascular diseases (CVDs) are a leading
+                                cause
+                                of
+                                mortality and impose a significant burden on the healthcare system. This project
+                                uses
+                                machine learning and deep learning techniques to predict cardiovascular diseases
+                                early,
+                                providing valuable tools for healthcare professionals. The system will collect
+                                data
+                                on
+                                cardiac pathologies and related diseases from Algerian patients to aid in early
+                                detection and treatment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 5 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project5Modal">
+                    <img src="img/Picture40.png" class="card-img-top" alt="E-Government Security">
+                    <div class="card-body">
+                        <h5 class="card-title">TrustGov: Deep Learning-Based Biometric Approach to Secure
+                            E-Government
+                            Applications</h5>
+                        <p class="card-text">Developing secure biometric-based authentication for E-government
+                            applications.</p>
+                        <p><strong>Members:</strong> Dr. Laimeche Lakhdar, Dr. Haouam Med Yassine, PhD students:
+                            Makhlouf Ziad Eddine, Gharbi Abdelhakim, Toureche Amina, Kenaza Rabah, Khemane
+                            Ameur,
+                            Ferik
+                            Brahim.</p>
+                        <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 Modal -->
+            <div class="modal fade" id="project5Modal" tabindex="-1" aria-labelledby="project5ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project5ModalLabel">TrustGov: Deep Learning-Based
+                                Biometric
+                                Approach to Secure E-Government Applications</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Goal:</strong> To design a secure E-Government model that satisfies
+                                authentication and access control through biometric systems.</p>
+                            <p><strong>Members:</strong> Dr. Laimeche Lakhdar, Dr. Haouam Med Yassine, PhD
+                                students:
+                                Makhlouf Ziad Eddine, Gharbi Abdelhakim, Toureche Amina, Kenaza Rabah, Khemane
+                                Ameur,
+                                Ferik Brahim.</p>
+                            <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
+                            <p><strong>Full Description:</strong> Algeria’s E-Government ranking is improving,
+                                and
+                                this
+                                project aims to strengthen it by developing a secure, deep learning-based
+                                biometric
+                                authentication model. The focus is on ensuring secure access to government
+                                services,
+                                improving data protection, and increasing public trust in digital government
+                                systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 6 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project6Modal">
+                    <img src="img/Picture41.png" class="card-img-top" alt="Fixed Point Theory and Applications">
+                    <div class="card-body">
+                        <h5 class="card-title">Fixed Point: Theory and Applications</h5>
+                        <p class="card-text">Exploring the use of fixed point theorems in various mathematical
+                            models.
+                        </p>
+                        <p><strong>Members:</strong> Dr. Khaled Berrah, Dr. Nabti Abderrazek, PhD students: Sadi
+                            Saleh,
+                            Hadjadj Randa, Chettouh Kamilia.</p>
+                        <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 Modal -->
+            <div class="modal fade" id="project6Modal" tabindex="-1" aria-labelledby="project6ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project6ModalLabel">Fixed Point: Theory and Applications
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Goal:</strong> To explore and apply fixed point theory in various
+                                mathematical
+                                and economic models.</p>
+                            <p><strong>Members:</strong> Dr. Khaled Berrah, Dr. Nabti Abderrazek, PhD students:
+                                Sadi
+                                Saleh, Hadjadj Randa, Chettouh Kamilia.</p>
+                            <p><strong>Starting Date:</strong> 2023 | <strong>Duration:</strong> 4 years</p>
+                            <p><strong>Full Description:</strong> Fixed point theorems are essential tools for
+                                proving
+                                the existence and uniqueness of solutions in mathematical models. This project
+                                will
+                                focus on applying these theorems to dynamic systems and economic problems,
+                                including
+                                the
+                                analysis of the Algerian economy using dynamic system models.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 7 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project7Modal"> <img
+                        src="img/Picture42.png" class="card-img-top" alt="Asymptotic Behavior of Solutions">
+                    <div class="card-body">
+                        <h5 class="card-title">Asymptotic Behavior of Solutions to Nonlinear Evolution Problems
+                        </h5>
+                        <p class="card-text">Studying the existence, stability, and explosion of solutions in
+                            nonlinear
+                            evolution models.</p>
+                        <p><strong>Members:</strong> Pr. Boumaza Nouri, Saker Meriem (PhD student), Khaoula
+                            Merzoug
+                            (PhD
+                            student).</p>
+                        <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
+                    </div>
+                </div>
+            </div> <!-- Project 7 Modal -->
+            <div class="modal fade" id="project7Modal" tabindex="-1" aria-labelledby="project7ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project7ModalLabel">Asymptotic Behavior of Solutions to
+                                Nonlinear Evolution Problems</h5> <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Goal:</strong> To study the existence, stability, and explosion of
+                                solutions
+                                to
+                                nonlinear evolution problems and establish new conditions regarding the
+                                interaction
+                                between damping and source terms.</p>
+                            <p><strong>Members:</strong> Pr. Boumaza Nouri, Saker Meriem (PhD student), Khaoula
+                                Merzoug
+                                (PhD student).</p>
+                            <p><strong>Starting Date:</strong> 2022 | <strong>Duration:</strong> 4 years</p>
+                            <p><strong>Full Description:</strong> The problem in this research axis is to study
+                                the
+                                existence, stability, and explosion of solutions to posed problems (nonlinear
+                                evolution
+                                problems) and to search for new conditions on the interaction between the
+                                damping
+                                term
+                                and the source term.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 8 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm" data-bs-toggle="modal" data-bs-target="#project8Modal"> <img
+                        src="img/Picture43.png" class="card-img-top" alt="Stabilization and Explosion of Solutions">
+                    <div class="card-body">
+                        <h5 class="card-title">Stabilization and Explosion of Solutions in Nonlinear Evolution
+                            Systems
+                        </h5>
+                        <p class="card-text">Investigating methods for stabilization and destabilization of
+                            nonlinear
+                            systems.</p>
+                        <p><strong>Members:</strong> Pr. Mesloub Fatiha, Pr. Zarai Abderrahmane, Benzahi Mourad
+                            (PhD
+                            student), Merah Ahlem (PhD student), Toualbia Sarra (PhD student).</p>
+                        <p><strong>Starting Date:</strong> 2021 | <strong>Duration:</strong> 4 years</p>
+                    </div>
+                </div>
+            </div> <!-- Project 8 Modal -->
+            <div class="modal fade" id="project8Modal" tabindex="-1" aria-labelledby="project8ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project8ModalLabel">Stabilization and Explosion of
+                                Solutions
+                                in
+                                Nonlinear Evolution Systems</h5> <button type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>Goal:</strong> To explore conditions that promote system stabilization
+                                towards
+                                equilibrium and investigate causes of system destabilization, including
+                                finite-time
+                                explosion.</p>
+                            <p><strong>Members:</strong> Pr. Mesloub Fatiha, Pr. Zarai Abderrahmane, Benzahi
+                                Mourad
+                                (PhD
+                                student), Merah Ahlem (PhD student), Toualbia Sarra (PhD student).</p>
+                            <p><strong>Starting Date:</strong> 2021 | <strong>Duration:</strong> 4 years</p>
+                            <p><strong>Full Description:</strong> The proposed problems constitute a major
+                                research
+                                axis. Initially, it involves testing existing techniques and methods on new
+                                problems
+                                that naturally arise in various application domains. Subsequently, improving
+                                conditions
+                                and extending results to other, more general situations by modifying existing
+                                methods,
+                                and potentially establishing new techniques capable of solving the problems
+                                under
+                                investigation. The question of local existence, while it may pose technical
+                                complications and serves as the initial step before proceeding further, in our
+                                opinion,
+                                does not necessarily constitute a major contribution. Rather, our primary
+                                interest
+                                lies
+                                in the preference for exponential stabilization of the system towards
+                                equilibrium
+                                and
+                                the conditions favoring system destabilization, particularly finite-time
+                                explosion.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- More projects following the same structure -->
+
 
         </div>
     </section>

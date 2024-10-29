@@ -117,3 +117,15 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const thesisDropdown = document.querySelector('.thesis-dropdown .nav-link');
+
+    thesisDropdown.addEventListener('click', function (e) {
+        if (window.innerWidth < 992) {
+            e.preventDefault();
+            this.closest('.thesis-dropdown').classList.toggle('show');
+        }
+    });
+});
+
+

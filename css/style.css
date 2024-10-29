@@ -818,3 +818,7 @@
 .copyright a:hover {
     color: var(--bs-primary);
 }
+
+.hide-publication {
+    display: none;
+}

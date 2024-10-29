@@ -101,3 +101,19 @@ document.getElementById('loadMoreEvents').addEventListener('click', function () 
 });
 
 
+// Handle publications loading
+document.addEventListener('DOMContentLoaded', function () {
+    const loadMorePublicationsBtn = document.getElementById('loadMorePublications');
+    const hiddenPublications = document.querySelectorAll('.hide-publication');
+
+    if (loadMorePublicationsBtn) {
+        loadMorePublicationsBtn.addEventListener('click', function () {
+            hiddenPublications.forEach(publication => {
+                publication.classList.remove('hide-publication');
+            });
+            loadMorePublicationsBtn.style.display = 'none';
+        });
+    }
+});
+
+

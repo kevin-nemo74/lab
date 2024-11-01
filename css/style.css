@@ -956,3 +956,9 @@
     padding: 0.25rem 1rem !important;
     line-height: 1.2 !important;
 }
+
+/* Add this rule to your existing CSS */
+.accordion-body .col-md-4 ul li {
+    text-align: justify;
+    text-justify: inter-word;
+}

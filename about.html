@@ -189,7 +189,8 @@
                 <p class="lamis-paragraph">
                     The laboratory is divided into four (4) teams with clearly identified research themes. At present
                     there are
-                    about one hundred twenty (120) members. A further 80 postgraduates are engaged in research for the
+                    about one hundred and fifteen (115) members. A further 73 postgraduates are engaged in research for
+                    the
                     PhD. It
                     is
                     thanks to the efforts of all of our committed team members that we are able to conduct such
@@ -210,7 +211,8 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Pr. Mohamed Ridda Laouar</h5>
-                            <span>Engineering of Information and Imaging Systems</span>
+                            <span><a href="team1.html" style="color: #8a91ac;">Engineering of Information and Imaging
+                                    Systems</a></span>
                         </div>
                     </div>
                 </div>
@@ -227,7 +229,8 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Pr. Hakim Bendjenna </h5>
-                            <span>Distributed and Intelligent Systems </span>
+                            <span><a href="team2.html" style="color: #8a91ac;">Distributed and Intelligent Systems</a>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -244,7 +247,8 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Pr. Kamel haouam </h5>
-                            <span>Analyse and Applied Mathematics </span>
+                            <span><a href="team3.html" style="color: #8a91ac;">Analyse and Applied Mathematics</a>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -261,7 +265,8 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Pr. Rebii Belgacem </h5>
-                            <span>Dynamic, elliptical and chaotic Systems </span>
+                            <span><a href="team4.html" style="color: #8a91ac;">Dynamic, elliptical and chaotic Systems
+                                </a></span>
                         </div>
                     </div>
                 </div>
@@ -269,6 +274,139 @@
         </div>
     </div>
     <!-- Team End -->
+    <!-- Lab Presidents Timeline Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-4">Laboratory Presidents</h1>
+                <p class="mb-4">Leadership through the years</p>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="timeline-container position-relative">
+                        <!-- Timeline Line -->
+                        <div class="timeline-line"></div>
+
+                        <!-- Current President -->
+                        <div class="row timeline-item wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-6 pe-md-5 text-md-end">
+                                <div class="timeline-content">
+                                    <h4 class="mb-2">2018 - Present</h4>
+                                    <div class="d-flex align-items-center justify-content-end mb-3">
+                                        <h5 class="mb-0 me-3">Pr. Hakim Bendjenna</h5>
+                                        <img src="img/hakim1.jpg" class="rounded-circle"
+                                            style="width: 60px; height: 60px; object-fit: cover;">
+                                    </div>
+                                    <p class="text-muted">Leading LAMIS laboratory into new horizons of research
+                                        excellence and innovation in computer science and mathematics.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="timeline-marker current"></div>
+                            </div>
+                        </div>
+
+                        <!-- Previous President -->
+                        <div class="row timeline-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="col-md-6">
+                                <div class="timeline-marker"></div>
+                            </div>
+                            <div class="col-md-6 ps-md-5">
+                                <div class="timeline-content">
+                                    <h4 class="mb-2">2012 - 2018</h4>
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="img/Mohamed-Laouar.png" class="rounded-circle me-3"
+                                            style="width: 60px; height: 60px; object-fit: cover;">
+                                        <h5 class="mb-0">Pr. Laouar Med Ridda</h5>
+                                    </div>
+                                    <p class="text-muted">Established strong foundations and guided the laboratory
+                                        through its formative years with visionary leadership.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .timeline-container {
+            padding: 40px 0;
+        }
+
+        .timeline-line {
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            background: var(--primary);
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0;
+        }
+
+        .timeline-marker {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 3px solid var(--primary);
+            background: white;
+            position: relative;
+            left: -9px;
+            margin: 20px 0;
+        }
+
+        .timeline-marker.current {
+            background: var(--primary);
+        }
+
+        .timeline-marker::before {
+            content: '';
+            width: 40px;
+            height: 2px;
+            background: var(--primary);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .timeline-item:nth-child(odd) .timeline-marker::before {
+            left: 20px;
+        }
+
+        .timeline-item:nth-child(even) .timeline-marker::before {
+            right: 20px;
+        }
+
+        .timeline-content {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+        }
+
+        @media (max-width: 767px) {
+            .timeline-line {
+                left: 20px;
+            }
+
+            .timeline-marker {
+                left: 11px;
+            }
+
+            .timeline-content {
+                margin-left: 50px;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content {
+                text-align: left !important;
+            }
+        }
+    </style>
+    <!-- Lab Presidents Timeline End -->
 
 
     <!-- Footer Start -->
